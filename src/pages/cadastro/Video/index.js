@@ -13,5 +13,4 @@ function CadastroVideo() {
     </PageDefault>
   )
 }
-
 export default CadastroVideo; 

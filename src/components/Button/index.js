@@ -1,8 +1,9 @@
 import styled from 'styled-components';
+import {Link} from 'react-router-dom';
 
 //extensão vscode-styled-components instalada para não ver o css como string.
 
-const Button = styled.button`
+const Button = styled(Link)`
     color: var(--white);
     border: 1px solid var(--white);
     box-sizing: border-box;
